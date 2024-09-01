@@ -1,5 +1,7 @@
-# from TestModule import Module01
-import TestModule.Module01
+from TestModule import Module01
 
-result = TestModule.Module01.dummy(2,4)
+result = Module01.add(43,49)
+print(result)
+
+result = Module01.sub(86,43)
 print(result)
